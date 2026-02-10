@@ -142,6 +142,104 @@ These choices were intentional to keep the focus on learning core logic.
     ```
      python dayflow_rpc.py
     ```
+
+Here’s a **clean, copy-paste-ready README section** you can drop straight into your repo.
+It’s written so **any Linux user** can automate it without confusion.
+
+---
+
+## 🚀 Run Automatically on Login (Linux / GNOME)
+
+This project can run **automatically in the background** every time you log in — no terminal, no manual command.
+
+### ✅ Requirements
+
+* Linux with GNOME / Pop!_OS / Ubuntu
+* Python 3 installed
+* Discord installed and set to **start on login**
+
+---
+
+### 🔧 Step 1: Create an autostart entry
+
+Open a terminal and run:
+
+```bash
+mkdir -p ~/.config/autostart
+nano ~/.config/autostart/dayflow-rpc.desktop
+```
+
+Paste the following **exactly** (edit the path if needed):
+
+```ini
+[Desktop Entry]
+Type=Application
+Name=DayFlowRPC
+Exec=/usr/bin/python3 /home/<YOUR_USERNAME>/DayFlowRPC/dayflowrpc.py
+X-GNOME-Autostart-enabled=true
+```
+
+Replace `<YOUR_USERNAME>` with your Linux username.
+
+---
+
+### 💾 Step 2: Save and exit nano
+
+* Press **Ctrl + O** → Enter (save)
+* Press **Ctrl + X** (exit)
+
+---
+
+### ✅ Step 3: Test manually (recommended)
+
+Before logging out, test once:
+
+```bash
+/usr/bin/python3 /home/<YOUR_USERNAME>/DayFlowRPC/dayflowrpc.py
+```
+
+If Discord is open and the presence appears, autostart will work.
+
+---
+
+### 🔁 Step 4: Activate autostart
+
+Log out and log back in:
+
+```bash
+gnome-session-quit --logout
+```
+
+After login:
+
+* Open Discord
+* Wait ~1–2 minutes
+* Your Rich Presence should appear automatically 🎯
+
+---
+
+### 🧠 Notes
+
+* This **does NOT start Discord** — Discord should already be set to start on login.
+* If Discord opens later, the script will still connect once Discord is running.
+* The script runs safely using Discord’s **Rich Presence (IPC)** — no tokens, no self-botting.
+
+---
+
+### 🛠 Optional Improvements
+
+* Add retry logic if Discord isn’t open yet
+* Convert to a `systemd --user` service for auto-restart
+* Sync modes with Google Calendar
+
+---
+
+### ✅ Result
+
+Once set up, **DayFlowRPC becomes part of your system**, running silently and reflecting your daily rhythm automatically.
+
+---
+
 🕯️ Final Note
 This project isn’t about productivity or automation alone.
 

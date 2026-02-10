@@ -50,38 +50,6 @@ This is **not a Discord bot** and does **not** automate messages or accounts.
 
 ---
 
-## Demo (Live Discord Presence)
-
-Below are **real screenshots** of DayFlow RPC running live on Discord.  
-The presence updates automatically based on time and activity — no manual input.
-
-### Deep Focus Mode 🚀
-<p align="center">
-  <img src="demo/deep_focus.png" width="350">
-</p>
-
-*Focused study block with a live countdown to the next activity.*
-
----
-
-### Guitar Practice 🎸
-<p align="center">
-  <img src="demo/guitar_practice.png" width="350">
-</p>
-
-*Automatically switches when the time window changes.*
-
----
-
-### Mission Mode: Growth 🧠
-<p align="center">
-  <img src="demo/growth_mode.png" width="350">
-</p>
-
-*Long deep-work sessions with accurate remaining time display.*
-
----
-
 ## Key ideas used
 
 While building this as a beginner project, I encountered real system-design concepts:
@@ -128,6 +96,66 @@ Each mode includes:
 - a description
 - an end time
 - a countdown to the next state
+
+---
+
+## Live Demo (Auto-Updating)
+
+Below are **real screen recordings (GIFs)** of DayFlow RPC running live on Discord.  
+The status updates automatically based on the current time — **no manual input**.
+
+### Desktop View
+<p align="center">
+  <img src="demo/demo_video_pc.gif" width="420">
+</p>
+
+*Shows a full desktop Discord profile with live activity, countdown timer, and next-state preview.*
+
+---
+
+### Mobile View
+<p align="center">
+  <img src="demo/demo_video_mobile.gif" width="320">
+</p>
+
+*Demonstrates how the same presence appears on Discord mobile — readable, accurate, and reassuring at a glance.*
+
+---
+
+> The countdown and mode transitions are driven entirely by local time logic.  
+> No messages, bots, or manual updates are involved.
+
+---
+
+## Demo (Live Discord Presence)
+
+Below are **real screenshots** of DayFlow RPC running live on Discord.  
+The presence updates automatically based on time and activity — no manual input.
+
+### Deep Focus Mode 🚀
+<p align="center">
+  <img src="demo/deep_focus.png" width="350">
+</p>
+
+*Focused study block with a live countdown to the next activity.*
+
+---
+
+### Guitar Practice 🎸
+<p align="center">
+  <img src="demo/guitar_practice.png" width="350">
+</p>
+
+*Automatically switches when the time window changes.*
+
+---
+
+### Mission Mode: Growth 🧠
+<p align="center">
+  <img src="demo/growth_mode.png" width="350">
+</p>
+
+*Long deep-work sessions with accurate remaining time display.*
 
 ---
 

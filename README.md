@@ -50,6 +50,38 @@ This is **not a Discord bot** and does **not** automate messages or accounts.
 
 ---
 
+## Demo (Live Discord Presence)
+
+Below are **real screenshots** of DayFlow RPC running live on Discord.  
+The presence updates automatically based on time and activity — no manual input.
+
+### Deep Focus Mode 🚀
+<p align="center">
+  <img src="demo/deep_focus.png" width="350">
+</p>
+
+*Focused study block with a live countdown to the next activity.*
+
+---
+
+### Guitar Practice 🎸
+<p align="center">
+  <img src="demo/guitar_practice.png" width="350">
+</p>
+
+*Automatically switches when the time window changes.*
+
+---
+
+### Mission Mode: Growth 🧠
+<p align="center">
+  <img src="demo/growth_mode.png" width="350">
+</p>
+
+*Long deep-work sessions with accurate remaining time display.*
+
+---
+
 ## Key ideas used
 
 While building this as a beginner project, I encountered real system-design concepts:

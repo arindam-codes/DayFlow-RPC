@@ -169,6 +169,15 @@ No frameworks. No databases. No web servers.
 
 ---
 
+## 👥 Who is this for?
+
+- Beginners learning Python through real projects  
+- Developers exploring Discord Rich Presence  
+- Anyone interested in automation and productivity systems  
+- Students learning state machines and time-based logic  
+
+---
+
 ## What I learned from this project
 
 - Real systems are more about **state and timing** than syntax
@@ -304,3 +313,14 @@ Once set up, **DayFlowRPC becomes part of your system**, running silently and re
 This project isn’t about productivity or automation alone.
 
 It’s about using code to reduce unnecessary worry, improve clarity, and make daily life a little calmer for both myself and the people close to me.
+
+---
+
+## 🔍 Keywords
+
+python automation project  
+discord rich presence python  
+beginner python project ideas  
+daily routine tracker python  
+time based state machine python  
+productivity automation tools  
